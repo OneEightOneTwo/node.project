@@ -1,0 +1,206 @@
+$color1:#f2f2f2;
+$color2:#cbb;
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+#login-box{
+    width: 600px;
+    height: 500px;
+    margin:100px auto;
+    border:1px solid #ccc;
+    background-color: $color1;
+    padding: 45px 75px;
+    overflow:hidden;
+    .line1{
+        height: 60px;
+        padding-left: 60px;
+        margin-bottom: 40px;
+        img{
+            display: inline-block;
+            // url:"../images/u35.png";
+            width: 120px;
+            height: 60px;
+            margin-right: 30px;
+            border:1px solid blue;
+            float:left;
+        }
+        span{
+            display: inline-block;
+            font-size: 26px;
+            font-weight: 600;
+            height: 60px;
+            line-height: 60px;
+            float:left;
+
+        }
+    }
+    .line2,.line3{
+        height: 55px;
+        width: 450px;
+        border:1px solid #ccc;
+        background-color: white;
+        margin-bottom: 10px;
+        padding:10px 0 10px 40px;
+        input{
+            height: 35px;
+            width: 100%;
+            line-height: 35px;
+            color:#ccc;
+            border:none;
+        }
+    }
+    .line4{
+            height: 55px;
+            width: 270px;
+            border:1px solid #ccc;
+            margin: 0 20px 10px 0;
+            padding:10px 0 10px 40px;
+            float:left;
+            background-color:white;
+            // background-image:url(../images/login/u8.png) 0 0;
+        input{
+            height: 35px;
+            width: 100%;
+            line-height: 35px;
+            color:#ccc;
+            border:none;
+        }
+    }
+    .line5{
+            height: 55px;
+            width: 158px;
+            border:1px solid #ccc;
+            margin-bottom: 10px;
+            float:left;
+            font-size: 26px;
+            line-height: 55px;
+            text-align: center;
+            background-color: #fff;
+    }
+    .line6{
+        height: 55px;
+        width: 450px;
+        // border:1px solid #ccc;
+        margin-bottom: 10px;
+        clear:both;overflow:hidden;
+        padding:10px 0 10px 25px;
+        input{
+            width: 12px;
+            height: 12px;
+            margin-right: 12px;
+            margin-top:12px;
+            float:left;
+        }
+        .remanber{
+            display: inline-block;
+            font-size: 12px;
+            width: 80px;
+            height: 35px;
+            line-height: 35px;
+            float:left;
+            text-align: left;
+            // margin-right:150px;
+        }
+        
+        .forget{
+            display: inline-block;
+            font-size: 12px;
+            width: 80px;
+            height: 35px;
+            line-height: 35px;
+            float:right;
+            // margin-left: 150px;
+            // text-align: left;
+        }
+        
+    }
+    .login{
+        height: 51px;
+        width: 100%;
+        background-color:green;
+        font-size: 14px;
+        color:white;
+    }
+    
+}
+
+#box{
+    height: 1210px;
+    width: 1442px;
+
+    #nav{
+        width: 232px;
+        height:1033px;
+        background-color: #011b19;
+        float:left;
+        h2{
+            width: 232px;
+            height: 60px;
+            line-height: 60px;
+            color:#ccc;
+            padding-left:40px;
+        }
+        h3{
+            width: 232px;
+            height: 55px;
+            line-height: 55px;
+            color:#ccc;
+            padding-left:60px;
+            background-color: #011b19;
+            &:hover{
+                background-color:#011b196b;
+                color:white;
+                border-left:3px solid #179f1c;
+                cursor: pointer;
+            }
+        }
+    p{
+        width: 232px;
+        height: 40px;
+        line-height: 40px;
+        color:#CCC;
+        padding-left:60px;
+        background-color: #011b19;
+        &:hover{
+            background-color:#011b196b;
+            color:white;
+            border-left:3px solid #179f1c;
+            cursor: pointer;
+        }
+    }
+    }
+
+    #conten{
+        width: 1208px;
+        height: 1033px;
+        border:1px solid #ccc;
+        float:right;
+        #header{
+            width: 1208px;
+            height: 52px;
+            border:1px solid #ccc;
+            border-bottom: 2px solid #ccc;
+            padding:0 10px 0 10px;
+            margin-bottom: 40px;
+            .path{
+                float:left;
+                font-size: 12px;
+                height: 52px;
+                line-height: 52px;
+            }
+            .tuichu{
+                float:right;
+                font-size: 12px;
+                height: 52px;
+                line-height: 52px;
+                color:blue;
+            }
+        }
+        .conponent{
+           border:15px solid #ccc;
+        }
+    }
+}
