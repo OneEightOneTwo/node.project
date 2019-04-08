@@ -1,11 +1,13 @@
 $color1:#f2f2f2;
 $color2:#cbb;
+$color3:#c6ddef;
 
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;
 }
 
+//登陆页样式
 #login-box{
     width: 600px;
     height: 500px;
@@ -128,8 +130,8 @@ $color2:#cbb;
 }
 
 #box{
-    height: 1210px;
-    width: 1442px;
+    // height: 1210px;
+    // width: 1442px;
 
     #nav{
         width: 232px;
@@ -204,3 +206,776 @@ $color2:#cbb;
         }
     }
 }
+
+//home 商品列表内容区
+#minbox{
+    width: 275px;
+    height: 157px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border: 1px solid #ccc;
+    display: none;
+    .top{
+        width: 275px;
+        height: 44px;
+        background-color: #ccc;
+        padding:0 10px;
+        font-size: 16px;
+        line-height: 44px;
+    }
+    .conten{
+        width: 275px;
+        height: 113px;
+        padding:25px 10px 10px 15px;
+        font-size: 16px;
+        background-color: #fff;
+        p{
+            width: 100%;
+            height: 30px;
+            padding-left:100px;
+            margin-top:30px;
+            span{
+                display: inline-block;
+                margin-right:10px;
+                width: 65px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                cursor: pointer; 
+            }
+            .yes{
+                display: inline-block;
+                background-color: blue;
+                color:white;
+            }
+            .cancel{
+                display: inline-block;
+                background-color: #ccc;
+                color:white;
+            }
+        
+        }
+        
+    }
+}
+#conponent-home{
+    #top{
+        height: 38px;
+        margin-bottom: 20px;
+        padding-left:15px;
+        .add{
+            width: 83px;
+            height: 38px;
+            background-color: green;
+            font-size: 14px;
+            line-height: 38px;
+            color:white;
+            float:left;
+            margin-right:15px;
+        }
+        .delete{
+            width: 83px;
+            height: 38px;
+            line-height: 38px;
+            color:black;
+            float:left;
+        }
+        .search{
+            width: 307px;
+            height: 38px;
+            line-height: 38px;
+            border:1px solid #ccc;
+            float:right;
+            
+        }
+        #type{
+            width: 169px;
+            height: 38px;
+            float:right;
+            margin-left:15px;
+    
+        }
+        .search_btn{
+            width: 83px;
+            height: 38px;
+            background-color:green;
+            float:right;
+            margin:0 30px 0 20px;
+            color:white;
+        }
+    }
+   #tab{
+        border-collapse: collapse;
+        margin-left:15px;
+       tr{
+           width: 1145px;
+           height: 41px;
+           th{
+               font-size: 14px;
+               font-weight: 200;
+               border:1px solid #ccc;
+               padding-left: 10px;
+               text-align: left;
+               background-color:#e6e3e3;
+           }
+           td{
+            font-size: 14px;
+            font-weight: 200;
+            border:1px solid #ccc;
+            padding-left: 10px;
+            text-align: left;
+           }
+            .cehck{
+                width: 52px;
+            }
+            .num{
+                width: 40px;
+            }
+            .name{
+                width: 190px;
+            }
+            .type{
+                width: 108px;
+            }
+            .old_price{
+                width: 115px;
+            }
+            .new_price{
+                width: 115px;
+            }
+            .have{
+                width: 105px;
+            }
+            .status{
+                width: 108px;
+            }
+            .add_time{
+                width: 155px;
+            }
+            .do{
+                width: 175px;
+                height: 41px;
+                padding-top:3px;
+                position:relative;
+                .write{
+                    display: inline-block;
+                    width: 38px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    padding-top:5px;
+                    background-color:green;
+                    margin-right:5px;
+                    cursor: pointer; 
+                }
+                .clear{
+                    display: inline-block;
+                    width: 38px;
+                    height: 30px;
+                    line-height: 30px;
+                    padding-top:5px;
+                    text-align: center;
+                    border:1px solid #ccc;
+                    margin-right:5px;
+                    cursor: pointer; 
+                }
+                .out{
+                    display: inline-block;
+                    width: 50px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: #ccc;
+                    font-style:18px;
+                    color:white;
+                    position:absolute;
+                    top:6px;
+                    right:20px;
+                
+                }
+            }
+
+       }
+   }
+}
+#bottom_page{
+    width: 100%;
+    height: 30px;
+    padding-left:400px;
+    margin-top:50px;
+    .total{
+        display: inline-block;
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-right:8px;
+        float:left;
+    }
+    .page_ul{
+        float:left;
+        li{
+            list-style: none;
+            float:left;
+            font-size: 10px;
+            width: 37px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .page_active{
+            background-color: green;
+            color:white;
+        }
+    }
+    #page{
+        float:left;
+        width: 75px;
+        height: 32px;
+        margin:0 20px 0 15px;
+    }
+    .to_page{
+        float:left;
+        display: inline-block;
+        height: 30px;
+        .to{
+            display: inline-block;
+            font-size: 10px;
+            margin-right:6px;
+        }
+        .number{
+            width: 41px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border:1px solid #ccc;
+        }
+        .pages{
+            font-size: 10px;
+            margin:0 5px 0 5px;
+        }
+        .btn{
+            width: 48px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+    }
+}
+//  添加商品 页
+#background{
+    background-color: #f2f2f2;
+    padding:20px;
+    #add_goods{
+        width: 1160px;
+        height: 900px;
+        padding:20px;
+        background-color:white;
+        #name{
+            width: 100%;
+            height: 38px;
+            margin-bottom: 15px;
+            label{
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            div{
+                display: inline-block;
+                width: 518px;
+                height: 38px;
+                border:1px solid #ccc;
+                margin:0 15px 15px 15px;
+                .name{
+                    height: 36px;
+                    width: 100%;
+                    border:none;
+                }
+            }
+            span{
+                font-size: 10px;
+                color:#ccc;
+            }
+        }
+    // 副标题
+        #funame{
+            width: 100%;
+            height: 38px;
+            margin-bottom: 15px;
+            label{
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            div{
+                display: inline-block;
+                width: 518px;
+                height: 38px;
+                border:1px solid #ccc;
+                margin:0 15px 15px 15px;
+                .funame{
+                    height: 36px;
+                    width: 100%;
+                    border:none;
+                }
+            }
+            span{
+                font-size: 10px;
+                color:#ccc;
+            }
+        }
+    //商品价格
+        #goods_price{
+            width: 100%;
+            height: 38px;
+            margin-bottom: 15px;
+            label{
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            div{
+                display: inline-block;
+                width: 160px;
+                height: 38px;
+                border:1px solid #ccc;
+                margin:0 15px 15px 15px;
+                .motoprice,.sellprice{
+                    height: 36px;
+                    width: 100%;
+                    border:none;
+                }
+            }
+        }
+    //商品分类
+        #type{
+            width: 100%;
+            height: 38px;
+            margin-bottom: 35px;
+            label{
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            select{
+                display: inline-block;
+                width: 518px;
+                height: 38px;
+                border:1px solid #ccc;
+                margin:0 15px 15px 15px;
+                // .funame{
+                //     height: 36px;
+                //     width: 100%;
+                //     border:none;
+                // }
+            }
+        }
+    //商品照片
+        #photo{
+            width: 100%;
+            height: 130px;
+            margin-bottom: 15px;
+            margin-top:10px;
+            label{
+                vertical-align:top;
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            span{
+                display: inline-block;
+                width: 100px;
+                height: 130px;
+                margin:0 40px 15px 15px;
+               p{
+                   display: inline-block;
+                   margin-left:5px;
+               }
+            }
+        }
+
+    // 库存
+        #have{
+            width: 100%;
+            height: 38px;
+            margin: 25px 0 35px 0;
+            label{
+                display: inline-block;
+                font-size: 16px;
+                height: 21px;
+                width: 85px;
+                text-align: right;
+            }
+            div{
+                display: inline-block;
+                width:160px;
+                height: 38px;
+                border:1px solid #ccc;
+                margin:0 15px 15px 15px;
+                .have{
+                    height: 36px;
+                    width: 100%;
+                    border:none;
+                }
+            }
+        } 
+
+
+// 商品属性
+    #nature{
+        width: 100%;
+        height: 30px;
+        margin-bottom:35px;
+        label{
+            display: inline-block;
+            font-size: 16px;
+            height: 21px;
+            width: 85px;
+            text-align: right;
+        }
+        .top1{
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            background-color:#ccc;
+            color:white;
+            font-size: 12px;
+            text-align: left;
+            border:1px solid #ccc;
+            margin:0 15px 15px 15px;
+            position:relative;
+            padding-left:5px;
+            cursor:pointer;
+            span{
+                display: inline-block;
+                float:right;
+                width: 35px;
+                height: 29px;
+                .img-box{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img-gou{
+                position:absolute;
+                top:8px;
+                right:10px;
+                display: none;
+            }
+            &:hover .img-gou{
+                display: block;
+            }
+        }
+    }
+//上架开关
+    #on_off{
+        width: 100%;
+        height: 24px;
+        line-height: 24px;
+        margin-bottom:20px;
+        label{
+            vertical-align:top;
+            display: inline-block;
+            font-size: 16px;
+            height: 24px;
+            line-height: 24px;
+            width: 85px;
+            text-align: right;
+        }
+        .border{
+            display: inline-block;
+            width: 54px;
+            height: 24px;
+            line-height: 24px;
+            border:1px solid #ccc;
+            border-radius: 12px;
+            margin:0 15px 15px 15px;
+            cursor:pointer;
+            position:relative;
+            .yuan{
+                display: inline-block;
+                height: 16px;
+                width: 16px;
+                border-radius: 50%;
+                background-color: #ccc;
+                margin:4px 2px 4px 2px;
+            }
+            span{
+                display: inline-block;
+                font-size: 12px;
+                color:#ccc;
+                height: 24px;
+                line-height: 24px;
+                position:absolute;
+                top:0;
+                right:3px;
+            }
+        }
+
+        .border-active{
+            display: inline-block;
+            width: 54px;
+            height: 24px;
+            background-color: green;
+            border-radius: 12px;
+            margin:0 15px 15px 15px;
+            cursor:pointer;
+            .yuan{
+                display: inline-block;
+                height: 16px;
+                width: 16px;
+                border-radius: 50%;
+                background-color:white;
+                margin:4px 2px 4px 2px;
+                float:right;
+            }
+            span{
+                display: inline-block;
+                font-size: 12px;
+                color:white;
+                height: 24px;
+                line-height: 24px;
+                position:absolute;
+                top:0;
+                left:3px;
+                float:left;
+            }
+        }
+    }
+//商品描述
+    #description{
+        width: 100%;
+        height: 170px;
+        margin: 0px 0 35px 0;
+        label{
+            vertical-align:top;
+            display: inline-block;
+            font-size: 16px;
+            height: 21px;
+            width: 85px;
+            text-align: right;
+        }
+        .input-box{
+            display: inline-block;
+            width:518px;
+            height:170px;
+            border:1px solid #ccc;
+            margin:0 15px 15px 15px;
+            .input{
+                height: 100%;
+                width: 100%;
+                border:none;
+            }
+        }
+    } 
+
+
+//确认
+#ok{
+    width: 100%;
+    height: 44px;
+    margin: 0px 0 35px 0;
+    label{
+        // vertical-align:top;
+        display: inline-block;
+        font-size: 16px;
+        height: 21px;
+        width: 85px;
+        text-align: right;
+    }
+    .btn{
+        display: inline-block;
+        width:114px;
+        height:44px;
+        margin:0 15px 15px 15px;
+        background-color:green;
+        color:white;
+        border-radius: 3px;
+        font-size: 16px;
+        line-height: 44px;
+        text-align:center;
+        cursor:pointer;
+    }
+} 
+
+}
+}
+
+
+
+
+//type商品分类页 样式
+#type-content{
+    width: 1160px;
+    height: 900px;
+    margin:30px;
+    #top{
+        height: 38px;
+        width: 100%;
+        margin:15px 0;
+        .add{
+            width: 86px;
+            height: 38px;
+            background-color: green;
+            color:white;
+            font-size: 16px;
+            text-align:center;
+        }
+        .delete{
+            width: 86px;
+            height: 38px;
+            border:1px solid #ccc;
+            color:black;
+            font-size: 16px;
+            text-align:center;
+        }
+    }
+    #tab{
+         border-collapse:collapse;
+        thead{
+           th{
+               border:1px solid #ccc;
+           }
+            .cehck{
+                width: 52px;
+                height: 41px;
+                background-color: $color1;
+            }
+            .num{
+                height: 41px;
+                width: 40px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                color:black;
+                text-align: center;
+                background-color: $color1;
+            }
+            .type{
+                height: 41px;
+                width: 733px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                text-align: left;
+                color:black;
+                background-color: $color1;
+            }
+            .add_time{
+                width: 155px;
+                height: 41px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                text-align: left;
+                color:black;
+                background-color: $color1;
+            }
+            .do{
+                width: 111px;
+                height: 41px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                text-align: left;
+                color:black;
+                background-color: $color1;
+            }
+        }
+        tbody{
+            td{
+                border:1px solid #ccc;
+            }
+            .cehck{
+                width: 52px;
+                height: 41px;
+            }
+            .num{
+                height: 41px;
+                width: 40px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                color:black;
+                text-align: center;
+            }
+            .type{
+                height: 41px;
+                width: 733px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                text-align: left;
+                color:black;
+            }
+            .add_time{
+                width: 155px;
+                height: 41px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                text-align: left;
+                color:black;
+            }
+            .do{
+                width: 111px;
+                height: 41px;
+                line-height: 41px;
+                font-size: 14px;
+                font-weight: 200;
+                padding-left:10px;
+                padding-top:5px;
+                text-align: left;
+                color:black;
+                .write{
+                    display: inline-block;
+                    width: 38px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: green;
+                    margin-right:7px;
+                    padding:5px;
+                }
+                .clear{
+                    display: inline-block;
+                    width: 38px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border:1px solid #ccc;
+                    padding:5px;
+                }
+            }
+        }
+    }
+
+}
+   
+
+
+
+
+
+
+
+

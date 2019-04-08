@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="./stylesheets/axure_rp_page.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="nav">
+                <h2>后台管理系统</h2>
+                <h3>商品管理</h3>
+                <p class="home_btn">商品列表</p>
+                <p class="type_btn">商品分类</p>
+                <p class="add_goods_btn">商品添加</p>
+                <h3>用户管理</h3>
+                <p>用户列表</p>
+                <p>用户添加</p>
+                <h3>订单管理</h3>
+        </div>
+        <div id="conten">
+            <p id="header">
+                <span class="path">首页/商品添加</span>
+                <span class="tuichu" style="cursor: pointer;">退出</span>
+            </p>
+            <div id="background">
+                <div id="add_goods">
+                    <!-- 添加商品内容区 -->
+                    <div id="name">
+                        <label>商品名称 </label>
+                        <div>
+                            <input class="name" type="text" placeholder="请输入标题">
+                        </div>
+                        <span>50字以内</span>
+                    </div>
+                    <div id="funame">
+                        <label>商品副标题</label>
+                        <div>
+                            <input class="funame" type="text" placeholder="请输入">
+                        </div>
+                        <span>100字以内</span>
+                    </div>
+                    <div id="goods_price">
+                        <label>商品价格 </label>
+                        <div>
+                            <input class="motoprice" type="text">
+                        </div>
+                        <label>销售价格 </label>
+                        <div>
+                            <input class="sellprice" type="text">
+                        </div>
+                    </div>
+                    <div id="type">
+                        <label>商品分类 </label>
+                        <select name="type" id="type-sele">
+                            <option class="check" value="0" selected>请选择</option>
+                            <option class="check" value="1" >手机</option>
+                            <option class="check" value="2">电脑</option>
+                            <option class="check" value="3">平板</option>
+                            <option class="check" value="4">配件</option>
+                            <option class="check" value="5">办公用品</option>
+                            <option class="check" value="6">其他</option>
+                        </select>
+                    </div>
+                    <div id="photo">
+                        <label>商品图片 </label>
+                        <span>
+                            <img id="img" src="./images/商品添加/u736.png" alt="" style="width:100px;height:100px;">
+                            <input type="radio">
+                            <p>设为封面</p>
+                        </span>
+                        <span>
+                            <img src="./images/商品添加/u736.png" alt="">
+                            <input type="radio">
+                            <p>设为封面</p>
+                        </span>
+                        <span>
+                            <img src="./images/商品添加/u736.png" alt="">
+                            <input type="radio">
+                            <p>设为封面</p>
+                        </span>
+                        <span>
+                            <img src="./images/商品添加/u748.png" alt="">
+                            <input type="file" id="file" name="logo">
+                        </span>
+                    </div>
+                    <div id="have">
+                        <label>库存 </label>
+                        <div>
+                            <input class="have" type="text">
+                        </div>
+                    </div>
+
+                    <div id="nature">
+                         <label>商品属性 </label>
+                         <div class="top1">热卖<span><img class="img-box" src="./images/商品添加/u703.png" alt=""></span><img class="img-gou" src="./images/商品添加/勾_u706.png" alt=""></div>
+                         <div class="top1">推荐<span><img class="img-box" src="./images/商品添加/u703.png" alt=""></span><img class="img-gou" src="./images/商品添加/勾_u706.png" alt=""></div>
+                         <div class="top1">促销<span><img class="img-box" src="./images/商品添加/u703.png" alt=""></span><img class="img-gou" src="./images/商品添加/勾_u706.png" alt=""></div>
+                    </div>
+                   
+                    <div id="on_off">
+                        <label>上架 </label>
+                        <div class="border">
+                            <div class="yuan"></div>
+                            <span>OFF</span>
+                        </div>
+                    </div>
+
+                    <div id="description">
+                        <label>商品描述 </label>
+                        <div class="input-box">
+                            <textarea class="input" style="overflow: hidden"></textarea>
+                        </div>
+                    </div>
+
+                    <div id="ok">
+                        <label></label>   
+                        <div class="btn">确认</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="javascripts/jquery.js"></script>
+        <script src="javascripts/add.goods.js"></script>
+        
+</body>
+
+</html>

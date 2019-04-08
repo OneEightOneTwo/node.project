@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="./stylesheets/axure_rp_page.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="nav">
+            <h2>后台管理系统</h2>
+            <h3>商品管理</h3>
+            <p class="home_btn">商品列表</p>
+            <p class="type_btn">商品分类</p>
+            <p class="add_goods_btn">商品添加</p>
+            <h3>用户管理</h3>
+            <p>用户列表</p>
+            <p>用户添加</p>
+            <h3>订单管理</h3>
+        </div>
+        <div id="conten">
+            <p id="header">
+                <span class="path">首页/商品分类</span>
+                <span class="tuichu" style="cursor: pointer;">退出</span>
+            </p>
+            <div id="type-content">
+                <!-- 添加商品内容区 -->
+                <div id="top">
+                    <input class="add" type="button" value="添加">
+                    <input class="delete" type="button" value="删除">
+                </div>
+
+                <table id="tab">
+                    <thead>
+                        <tr style="width: 1145px;height: 41px;">
+                            <th class="cehck">
+                                <div type="checkbox" style="width: 10px;height: 10px;"></div>
+                            </th>
+                            <th class="num">#</th>
+                            <th class="type">商品分类</th>
+                            <th class="add_time">添加时间</th>
+                            <th class="do">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                       
+                    </tbody>
+            </div>
+
+
+        </div>
+        <script src="javascripts/jquery.js"></script>
+        <script src="javascripts/type.js"></script>
+
+</body>
+
+</html>

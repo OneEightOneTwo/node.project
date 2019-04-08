@@ -19,8 +19,11 @@ $(".login").click(()=>{
             },
             success(data){
                 console.log(data)
-                if(data == "success"){
+                if(data.status == "success"){
+                    localStorage.setItem("token", data.token); 
                     location.href = "http://localhost:3000/home.html";
+                }else{
+                    alert("账户或密码有误")
                 }
             }
         })

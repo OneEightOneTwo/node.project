@@ -16,9 +16,9 @@
         <div id="nav">
             <h2>后台管理系统</h2>
             <h3>商品管理</h3>
-            <p>商品列表</p>
-            <p>商品分类</p>
-            <p>商品添加</p>
+            <p class="home_btn">商品列表</p>
+            <p class="type_btn">商品分类</p>
+            <p class="add_goods_btn">商品添加</p>
             <h3>用户管理</h3>
             <p>用户列表</p>
             <p>用户添加</p>
@@ -26,23 +26,104 @@
         </div>
         <div id="conten">
             <p id="header">
-                <span class="path">首页</span>
-                <span class="tuichu">退出</span>
+                <span class="path">首页/商品列表</span>
+                <span class="tuichu" style="cursor: pointer;">退出</span>
             </p>
-            <div class="conponent">
+            <div id="conponent-home">
                 <!-- 商品列表内容区 -->
-                <div id="u393" class="ax_default box_1">
-                    <div id="u393_div" class=""></div>
-                    <!-- Unnamed () -->
-                    <div id="u394" class="text" style="display: none; visibility: hidden">
-                        <p><span></span></p>
+                <div id="top">
+                    <input class="add" type="button" value="添加">
+                    <input class="delete" type="button" value="删除">
+                    <input type="button" value="搜索" class="search_btn">
+                    <select name="type" id="type">
+                        <option value="0" selected>请选择分类</option>
+                        <option value="1">手机</option>
+                        <option value="2">电脑</option>
+                        <option value="3">配件</option>
+                        <option value="4">平板</option>
+                    </select>
+                    <input class="search" type="text" placeholder="请输入搜索内容"> 
+                </div>
+                <table id="tab">
+                    <tr style="width: 1145px;height: 41px;">
+                        <th class="cehck"><div type="checkbox" style="width: 10px;height: 10px;"></div></th>
+                        <th class="num">#</th>
+                        <th class="name">商品名称</th>
+                        <th class="type">分类</th>
+                        <th class="old_price">价格（原价）</th>
+                        <th class="new_price">价格（现价）</th>
+                        <th class="have">库存</th>
+                        <th class="status">状态</th>
+                        <th class="add_time">添加时间</th>
+                        <th class="do">操作</th>
+                    </tr>
+                    <tbody class="tbody">
+
+
+                    </tbody>
+                    <!-- <tr class="Tr" style="width: 1145px;height: 41px;"> -->
+                        <!-- <td class="cehck" ></td>
+                        <td class="num">1</td>
+                        <td class="name">iphone-1</td>
+                        <td class="type">手机</td>
+                        <td class="old_price">998</td>
+                        <td class="new_price">798</td>
+                        <td class="have">10</td>
+                        <td class="status">上线</td>
+                        <td class="add_time">2018-11-11</td>
+                        <td class="do">
+                            <div class="write">
+                                <img style="width: 20px;height: 20px;" src="./images/商品分类/u187.png" alt="">
+                            </div>
+                            <div class="clear">
+                                <img style="width: 20px;height: 20px;" src="./images/商品分类/u182.png" alt="">
+                            </div>
+                             <div class="out">
+                                 下架
+                             </div>
+                        </td> -->
+                    <!-- </tr> -->
+                </table>
+                <div id="bottom_page">
+                    <span class="total">共100条</span>
+                    <ul class="page_ul">
+                        <li style="width: 68px;height: 30px;color:#ccc;">上一页</li>
+                        <li class="page_active">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li style="width: 46px;height: 30px;">...</li>
+                        <li>10</li>
+                        <li style="width: 68px;height: 30px;">下一页</li>
+                    </ul>
+                    <select name="page" id="page">
+                        <option value="10条/页">10条/页</option>
+                        <option value="20条/页">20条/页</option>
+                        <option value="30条/页">30条/页</option>
+                        <option value="40条/页">40条/页</option>
+                        <option value="50条/页">50条/页</option>
+                    </select>
+                    <div class="to_page">
+                         <span class="to">到第</span><input class="number" type="text" value="1"><span class="pages">页</span><input class="btn" type="button" value="确认">
                     </div>
+                   
                 </div>
             </div>
         </div>
-
     </div>
-
+      <div id="minbox">
+        <div class="top">
+            <span>确认操作</span>
+            <span class="X" style="float:right; cursor: pointer;">X</span>
+        </div>
+        <div class="conten">
+             你确定要删除这条是数据吗 <br>
+             <p><span class="yes">确定</span><span class="cancel">取消</span></p>
+            
+        </div>
+    </div>
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/home.js"></script>
 </body>
 
 </html>
