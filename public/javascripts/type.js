@@ -27,8 +27,6 @@
 $(".tuichu").on("click",function(){
     location.href = "http://localhost:3000/login.html";
 })
-
-
 $(".home_btn").click(()=>{
     location.href = "http://localhost:3000/home.html"
 })
@@ -38,3 +36,14 @@ $(".type_btn").click(()=>{
 $(".add_goods_btn").click(()=>{
     location.href = "http://localhost:3000/add.goods.html"
 })
+
+$(".add").click(() => {
+    location.href = "http://localhost:3000/add.goods.html"
+})
+$(".userslist").click(() => {
+    location.href = "http://localhost:3000/userlist.html"
+})
+$(".add-user").click(() => {
+    location.href = "http://localhost:3000/add-user.html"
+})
+

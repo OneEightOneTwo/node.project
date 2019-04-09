@@ -1,0 +1,100 @@
+#conten #u393 #u393_div {
+  padding-top: 28px;
+}
+#conten #u393 #u393_div .p1 {
+  padding-left: 10px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+#conten #u393 #u393_div .p1 span {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-right: 36px;
+}
+#conten #u393 #u393_div .p1 #uname {
+  width: 646px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #password {
+  width: 646px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #nickname {
+  width: 646px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #affirm {
+  width: 646px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #profession {
+  width: 200px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #select {
+  width: 150px;
+  height: 42px;
+}
+#conten #u393 #u393_div .p1 #graded {
+  width: 220px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p1 #city {
+  width: 646px;
+  height: 42px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+}
+#conten #u393 #u393_div .p2 {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+#conten #u393 #u393_div .p2 span {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-right: 36px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+#conten #u393 #u393_div .p2 #text {
+  width: 646px;
+  height: 213px;
+  padding: 0px 10px;
+  line-height: 42px;
+  border: 1px solid #cccccc;
+  resize: none;
+}
+#conten #u393 #u393_div #btn {
+  display: block;
+  width: 140px;
+  height: 35px;
+  background: #33ab9f;
+  color: #fff;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 138px;
+}
+
+/*# sourceMappingURL=add-user.css.map */

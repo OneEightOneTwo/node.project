@@ -1,0 +1,259 @@
+#nav h3 {
+  font-size: 18px; }
+#nav p {
+  font-size: 14px; }
+
+#conten #header .xie {
+  display: inline-block;
+  float: left;
+  height: 52px;
+  line-height: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12px; }
+
+#u393_div {
+  padding: 16px 0 0 10px; }
+  #u393_div #add {
+    display: inline-block;
+    width: 86px;
+    height: 38px;
+    background: #33ab9f;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 38px;
+    margin-right: 8px; }
+  #u393_div #del {
+    display: inline-block;
+    width: 86px;
+    height: 38px;
+    border: 1px solid #666666;
+    color: #666;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 38px; }
+  #u393_div #table {
+    border: 1px solid #c7c7c7;
+    margin-top: 25px; }
+    #u393_div #table #thead #tr1 {
+      background: #cbcbcb; }
+      #u393_div #table #thead #tr1 #td1 {
+        display: inline-block;
+        width: 52px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+        #u393_div #table #thead #tr1 #td1 #checkbox-all {
+          width: 16px;
+          height: 16px; }
+      #u393_div #table #thead #tr1 #td2 {
+        display: inline-block;
+        width: 41px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+      #u393_div #table #thead #tr1 #td3 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+      #u393_div #table #thead #tr1 #td4 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background-color: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        position: relative; }
+        #u393_div #table #thead #tr1 #td4 #img1 {
+          position: absolute;
+          top: 12px;
+          right: 15px;
+          cursor: pointer; }
+        #u393_div #table #thead #tr1 #td4 #img2 {
+          position: absolute;
+          top: 22px;
+          right: 15px;
+          cursor: pointer; }
+      #u393_div #table #thead #tr1 #td5 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+      #u393_div #table #thead #tr1 #td6 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+      #u393_div #table #thead #tr1 #td7 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+      #u393_div #table #thead #tr1 #td8 {
+        display: inline-block;
+        width: 108px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        position: relative; }
+        #u393_div #table #thead #tr1 #td8 #img3 {
+          position: absolute;
+          top: 12px;
+          right: 15px;
+          cursor: pointer; }
+        #u393_div #table #thead #tr1 #td8 #img4 {
+          position: absolute;
+          top: 22px;
+          right: 15px;
+          cursor: pointer; }
+      #u393_div #table #thead #tr1 #td9 {
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        position: relative; }
+        #u393_div #table #thead #tr1 #td9 #img5 {
+          position: absolute;
+          top: 12px;
+          right: 8px;
+          cursor: pointer; }
+        #u393_div #table #thead #tr1 #td9 #img6 {
+          position: absolute;
+          top: 22px;
+          right: 8px;
+          cursor: pointer; }
+      #u393_div #table #thead #tr1 #td10 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #f2f2f2;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+    #u393_div #table #tbody tr {
+      background: #cbcbcb; }
+      #u393_div #table #tbody tr td:hover {
+        background: #f2f2f2; }
+      #u393_div #table #tbody tr .td1 {
+        display: inline-block;
+        width: 52px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+        #u393_div #table #tbody tr .td1 input {
+          width: 16px;
+          height: 16px; }
+      #u393_div #table #tbody tr .td2 {
+        display: inline-block;
+        width: 41px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td3 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td4 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td5 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td6 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td7 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td8 {
+        display: inline-block;
+        width: 108px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td9 {
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 2px; }
+      #u393_div #table #tbody tr .td10 {
+        display: inline-block;
+        width: 103px;
+        height: 40px;
+        background: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 2px; }
+        #u393_div #table #tbody tr .td10 img {
+          width: 40px;
+          height: 30px;
+          cursor: pointer; }
+
+/*# sourceMappingURL=user.css.map */
